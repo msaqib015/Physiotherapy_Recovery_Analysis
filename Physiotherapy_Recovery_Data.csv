@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Injury_Type,Treatment_Type,Number_of_Sessions,Recovery_Time_Days,Gender_Encoded,Injury_Type_Encoded,Treatment_Type_Encoded
+1,56,Female,Fracture,Electrotherapy,15,46,1,1,1
+2,69,Male,Fracture,Exercise Therapy,15,29,0,1,2
+3,46,Female,Fracture,Electrotherapy,13,35,1,1,1
+4,32,Male,Fracture,Exercise Therapy,17,38,0,1,2
+5,60,Male,Post-Surgery,Manual Therapy,15,10,0,2,0
+6,25,Female,Sprain,Exercise Therapy,17,44,1,0,2
+7,78,Female,Sprain,Exercise Therapy,13,79,1,0,2
+8,38,Female,Post-Surgery,Exercise Therapy,9,110,1,2,2
+9,56,Male,Sprain,Exercise Therapy,14,68,0,0,2
+10,75,Female,Fracture,Electrotherapy,8,78,1,1,1
+11,36,Male,Sprain,Manual Therapy,19,42,0,0,0
+12,40,Male,Fracture,Exercise Therapy,15,60,0,1,2
+13,28,Male,Post-Surgery,Electrotherapy,10,87,0,2,1
+14,28,Female,Sprain,Manual Therapy,16,21,1,0,0
+15,41,Female,Post-Surgery,Manual Therapy,11,115,1,2,0
+16,70,Male,Sprain,Manual Therapy,9,29,0,0,0
+17,53,Male,Fracture,Manual Therapy,15,62,0,1,0
+18,57,Female,Post-Surgery,Exercise Therapy,17,97,1,2,2
+19,41,Male,Sprain,Exercise Therapy,14,52,0,0,2
+20,20,Female,Fracture,Electrotherapy,13,107,1,1,1
+21,39,Male,Post-Surgery,Electrotherapy,7,98,0,2,1
+22,70,Female,Post-Surgery,Electrotherapy,19,59,1,2,1
+23,19,Male,Sprain,Manual Therapy,11,38,0,0,0
+24,41,Female,Sprain,Manual Therapy,14,66,1,0,0
+25,61,Male,Sprain,Exercise Therapy,14,48,0,0,2
+26,47,Female,Fracture,Manual Therapy,15,104,1,1,0
+27,55,Female,Sprain,Manual Therapy,9,65,1,0,0
+28,19,Male,Post-Surgery,Manual Therapy,18,52,0,2,0
+29,77,Male,Post-Surgery,Electrotherapy,11,59,0,2,1
+30,38,Female,Sprain,Electrotherapy,19,32,1,0,1
+31,50,Male,Sprain,Exercise Therapy,6,53,0,0,2
+32,29,Female,Post-Surgery,Manual Therapy,8,47,1,2,0
+33,75,Male,Fracture,Manual Therapy,6,93,0,1,0
+34,39,Female,Sprain,Exercise Therapy,18,32,1,0,2
+35,78,Female,Sprain,Manual Therapy,17,54,1,0,0
+36,61,Female,Post-Surgery,Manual Therapy,17,61,1,2,0
+37,42,Female,Sprain,Electrotherapy,16,89,1,0,1
+38,66,Female,Fracture,Exercise Therapy,11,59,1,1,2
+39,44,Female,Post-Surgery,Exercise Therapy,6,115,1,2,2
+40,76,Male,Sprain,Exercise Therapy,17,17,0,0,2
+41,59,Male,Post-Surgery,Exercise Therapy,18,94,0,2,2
+42,45,Male,Sprain,Electrotherapy,15,10,0,0,1
+43,77,Female,Sprain,Electrotherapy,5,17,1,0,1
+44,33,Female,Sprain,Manual Therapy,13,38,1,0,0
+45,32,Female,Fracture,Manual Therapy,5,105,1,1,0
+46,79,Female,Fracture,Manual Therapy,12,111,1,1,0
+47,79,Male,Post-Surgery,Manual Therapy,19,14,0,2,0
+48,64,Male,Sprain,Electrotherapy,6,95,0,0,1
+49,79,Female,Sprain,Exercise Therapy,16,56,1,0,2
+50,68,Male,Fracture,Electrotherapy,12,43,0,1,1
+51,61,Male,Sprain,Manual Therapy,17,74,0,0,0
+52,72,Female,Fracture,Electrotherapy,7,64,1,1,1
+53,69,Male,Sprain,Exercise Therapy,10,99,0,0,2
+54,74,Female,Post-Surgery,Exercise Therapy,7,52,1,2,2
+55,20,Male,Sprain,Electrotherapy,18,83,0,0,1
+56,54,Female,Sprain,Electrotherapy,11,39,1,0,1
+57,68,Female,Fracture,Electrotherapy,14,91,1,1,1
+58,24,Female,Sprain,Manual Therapy,13,26,1,0,0
+59,38,Female,Sprain,Electrotherapy,6,35,1,0,1
+60,26,Male,Fracture,Electrotherapy,19,17,0,1,1
+61,56,Female,Post-Surgery,Electrotherapy,16,56,1,2,1
+62,35,Female,Post-Surgery,Exercise Therapy,16,113,1,2,2
+63,21,Female,Fracture,Exercise Therapy,19,85,1,1,2
+64,42,Male,Fracture,Manual Therapy,18,100,0,1,0
+65,77,Female,Fracture,Manual Therapy,9,81,1,1,0
+66,31,Male,Fracture,Exercise Therapy,17,98,0,1,2
+67,67,Female,Fracture,Exercise Therapy,10,55,1,1,2
+68,75,Male,Post-Surgery,Exercise Therapy,8,77,0,2,2
+69,26,Male,Post-Surgery,Electrotherapy,8,42,0,2,1
+70,43,Female,Fracture,Electrotherapy,8,10,1,1,1
+71,70,Male,Sprain,Exercise Therapy,6,28,0,0,2
+72,19,Female,Fracture,Electrotherapy,8,40,1,1,1
+73,37,Female,Sprain,Electrotherapy,15,89,1,0,1
+74,45,Female,Fracture,Manual Therapy,5,23,1,1,0
+75,64,Male,Fracture,Exercise Therapy,16,62,0,1,2
+76,77,Male,Post-Surgery,Exercise Therapy,10,57,0,2,2
+77,24,Female,Sprain,Electrotherapy,5,78,1,0,1
+78,61,Female,Sprain,Exercise Therapy,14,114,1,0,2
+79,78,Male,Post-Surgery,Manual Therapy,10,99,0,2,0
+80,25,Female,Post-Surgery,Manual Therapy,5,71,1,2,0
+81,64,Female,Post-Surgery,Manual Therapy,10,101,1,2,0
+82,52,Female,Post-Surgery,Exercise Therapy,14,75,1,2,2
+83,31,Male,Sprain,Exercise Therapy,12,73,0,0,2
+84,34,Male,Sprain,Exercise Therapy,15,79,0,0,2
+85,53,Male,Fracture,Exercise Therapy,6,72,0,1,2
+86,67,Female,Fracture,Exercise Therapy,6,82,1,1,2
+87,57,Female,Post-Surgery,Manual Therapy,18,42,1,2,0
+88,21,Female,Post-Surgery,Electrotherapy,19,50,1,2,1
+89,19,Male,Post-Surgery,Manual Therapy,17,98,0,2,0
+90,79,Female,Fracture,Exercise Therapy,16,57,1,1,2
+91,23,Female,Fracture,Manual Therapy,8,22,1,1,0
+92,71,Female,Fracture,Exercise Therapy,15,82,1,1,2
+93,59,Female,Fracture,Exercise Therapy,7,86,1,1,2
+94,21,Male,Fracture,Manual Therapy,8,40,0,1,0
+95,71,Male,Fracture,Exercise Therapy,17,114,0,1,2
+96,46,Female,Fracture,Electrotherapy,16,84,1,1,1
+97,35,Male,Post-Surgery,Exercise Therapy,11,77,0,2,2
+98,43,Male,Post-Surgery,Electrotherapy,17,107,0,2,1
+99,61,Female,Post-Surgery,Electrotherapy,15,111,1,2,1
+100,51,Female,Post-Surgery,Exercise Therapy,5,119,1,2,2
+101,27,Male,Fracture,Manual Therapy,10,13,0,1,0
+102,79,Female,Sprain,Electrotherapy,19,111,1,0,1
+103,53,Male,Fracture,Manual Therapy,19,28,0,1,0
+104,31,Female,Sprain,Electrotherapy,7,79,1,0,1
+105,48,Male,Post-Surgery,Exercise Therapy,15,107,0,2,2
+106,65,Female,Fracture,Exercise Therapy,14,91,1,1,2
+107,32,Male,Post-Surgery,Electrotherapy,11,22,0,2,1
+108,25,Male,Fracture,Exercise Therapy,14,114,0,1,2
+109,31,Male,Post-Surgery,Electrotherapy,6,32,0,2,1
+110,40,Female,Sprain,Exercise Therapy,18,92,1,0,2
+111,77,Male,Sprain,Manual Therapy,6,118,0,0,0
+112,74,Male,Sprain,Exercise Therapy,17,84,0,0,2
+113,79,Female,Fracture,Manual Therapy,8,10,1,1,0
+114,57,Female,Sprain,Exercise Therapy,5,97,1,0,2
+115,38,Male,Fracture,Manual Therapy,7,63,0,1,0
+116,33,Male,Sprain,Exercise Therapy,17,80,0,0,2
+117,62,Female,Sprain,Manual Therapy,13,98,1,0,0
+118,35,Female,Fracture,Electrotherapy,11,94,1,1,1
+119,64,Female,Fracture,Electrotherapy,19,24,1,1,1
+120,70,Female,Sprain,Manual Therapy,11,74,1,0,0
+121,41,Female,Fracture,Exercise Therapy,17,85,1,1,2
+122,43,Male,Sprain,Manual Therapy,17,80,0,0,0
+123,42,Female,Fracture,Exercise Therapy,15,24,1,1,2
+124,77,Male,Post-Surgery,Electrotherapy,8,30,0,2,1
+125,77,Male,Post-Surgery,Exercise Therapy,6,28,0,2,2
+126,77,Male,Post-Surgery,Electrotherapy,19,69,0,2,1
+127,62,Female,Post-Surgery,Exercise Therapy,18,102,1,2,2
+128,58,Male,Post-Surgery,Exercise Therapy,8,98,0,2,2
+129,46,Male,Sprain,Exercise Therapy,10,42,0,0,2
+130,32,Female,Post-Surgery,Manual Therapy,15,58,1,2,0
+131,62,Male,Post-Surgery,Manual Therapy,15,105,0,2,0
+132,18,Male,Post-Surgery,Electrotherapy,7,44,0,2,1
+133,42,Female,Post-Surgery,Electrotherapy,5,53,1,2,1
+134,24,Male,Fracture,Manual Therapy,18,111,0,1,0
+135,26,Male,Sprain,Electrotherapy,16,99,0,0,1
+136,41,Male,Post-Surgery,Manual Therapy,12,20,0,2,0
+137,18,Female,Post-Surgery,Exercise Therapy,16,108,1,2,2
+138,61,Female,Post-Surgery,Electrotherapy,17,81,1,2,1
+139,25,Female,Sprain,Electrotherapy,9,119,1,0,1
+140,41,Male,Fracture,Manual Therapy,19,87,0,1,0
+141,28,Male,Sprain,Electrotherapy,9,83,0,0,1
+142,68,Female,Fracture,Electrotherapy,15,75,1,1,1
+143,34,Male,Post-Surgery,Exercise Therapy,8,55,0,2,2
+144,25,Male,Post-Surgery,Electrotherapy,10,18,0,2,1
+145,52,Female,Sprain,Exercise Therapy,7,12,1,0,2
+146,52,Female,Sprain,Manual Therapy,13,94,1,0,0
+147,50,Male,Fracture,Electrotherapy,9,35,0,1,1
+148,76,Male,Fracture,Exercise Therapy,7,81,0,1,2
+149,22,Male,Sprain,Manual Therapy,15,57,0,0,0
+150,59,Female,Fracture,Electrotherapy,5,75,1,1,1
+151,56,Female,Sprain,Manual Therapy,14,79,1,0,0
+152,75,Female,Fracture,Electrotherapy,16,37,1,1,1
+153,58,Female,Sprain,Manual Therapy,10,102,1,0,0
+154,45,Male,Sprain,Manual Therapy,19,35,0,0,0
+155,24,Female,Sprain,Exercise Therapy,6,34,1,0,2
+156,26,Female,Fracture,Manual Therapy,17,21,1,1,0
+157,25,Female,Fracture,Electrotherapy,7,14,1,1,1
+158,29,Female,Fracture,Electrotherapy,5,107,1,1,1
+159,51,Female,Sprain,Exercise Therapy,13,57,1,0,2
+160,50,Male,Fracture,Electrotherapy,12,46,0,1,1
+161,65,Male,Fracture,Electrotherapy,16,88,0,1,1
+162,72,Female,Sprain,Electrotherapy,6,53,1,0,1
+163,40,Male,Post-Surgery,Manual Therapy,19,109,0,2,0
+164,79,Female,Sprain,Manual Therapy,16,24,1,0,0
+165,41,Female,Fracture,Electrotherapy,15,52,1,1,1
+166,54,Male,Sprain,Exercise Therapy,12,57,0,0,2
+167,52,Male,Post-Surgery,Manual Therapy,16,96,0,2,0
+168,61,Female,Sprain,Exercise Therapy,18,79,1,0,2
+169,57,Female,Fracture,Electrotherapy,13,55,1,1,1
+170,39,Female,Post-Surgery,Electrotherapy,5,117,1,2,1
+171,44,Male,Fracture,Manual Therapy,17,52,0,1,0
+172,52,Female,Post-Surgery,Electrotherapy,9,118,1,2,1
+173,18,Female,Post-Surgery,Manual Therapy,12,30,1,2,0
+174,52,Female,Sprain,Electrotherapy,19,32,1,0,1
+175,54,Male,Sprain,Electrotherapy,15,116,0,0,1
+176,64,Female,Fracture,Manual Therapy,18,89,1,1,0
+177,31,Female,Sprain,Manual Therapy,6,56,1,0,0
+178,20,Male,Sprain,Manual Therapy,8,24,0,0,0
+179,18,Female,Post-Surgery,Electrotherapy,11,34,1,2,1
+180,22,Female,Sprain,Electrotherapy,7,45,1,0,1
+181,43,Male,Post-Surgery,Exercise Therapy,17,84,0,2,2
+182,72,Female,Post-Surgery,Manual Therapy,16,60,1,2,0
+183,31,Male,Post-Surgery,Electrotherapy,9,24,0,2,1
+184,56,Male,Fracture,Electrotherapy,12,77,0,1,1
+185,44,Female,Fracture,Manual Therapy,16,30,1,1,0
+186,26,Female,Fracture,Exercise Therapy,14,22,1,1,2
+187,32,Female,Post-Surgery,Manual Therapy,7,95,1,2,0
+188,32,Female,Fracture,Exercise Therapy,8,28,1,1,2
+189,43,Male,Fracture,Electrotherapy,18,43,0,1,1
+190,59,Female,Sprain,Exercise Therapy,19,87,1,0,2
+191,77,Male,Fracture,Electrotherapy,13,77,0,1,1
+192,30,Female,Fracture,Manual Therapy,18,61,1,1,0
+193,68,Female,Post-Surgery,Manual Therapy,18,119,1,2,0
+194,49,Female,Post-Surgery,Manual Therapy,11,36,1,2,0
+195,56,Male,Post-Surgery,Exercise Therapy,5,38,0,2,2
+196,66,Female,Post-Surgery,Electrotherapy,18,37,1,2,1
+197,69,Female,Post-Surgery,Manual Therapy,16,44,1,2,0
+198,78,Female,Post-Surgery,Manual Therapy,8,17,1,2,0
+199,49,Female,Fracture,Electrotherapy,8,25,1,1,1
+200,21,Male,Post-Surgery,Manual Therapy,13,115,0,2,0
+201,47,Female,Post-Surgery,Electrotherapy,10,45,1,2,1
+202,54,Male,Sprain,Electrotherapy,13,39,0,0,1
+203,40,Male,Fracture,Electrotherapy,16,27,0,1,1
+204,56,Male,Fracture,Electrotherapy,19,11,0,1,1
+205,62,Male,Fracture,Electrotherapy,10,58,0,1,1
+206,32,Male,Post-Surgery,Exercise Therapy,10,86,0,2,2
+207,60,Male,Post-Surgery,Manual Therapy,9,13,0,2,0
+208,46,Female,Post-Surgery,Exercise Therapy,9,99,1,2,2
+209,53,Male,Sprain,Manual Therapy,6,98,0,0,0
+210,30,Male,Post-Surgery,Exercise Therapy,12,103,0,2,2
+211,49,Male,Sprain,Electrotherapy,12,84,0,0,1
+212,24,Female,Fracture,Manual Therapy,15,16,1,1,0
+213,76,Female,Post-Surgery,Manual Therapy,17,104,1,2,0
+214,68,Male,Sprain,Exercise Therapy,5,117,0,0,2
+215,39,Female,Sprain,Exercise Therapy,12,83,1,0,2
+216,45,Male,Post-Surgery,Manual Therapy,9,48,0,2,0
+217,19,Male,Fracture,Exercise Therapy,6,22,0,1,2
+218,59,Female,Fracture,Exercise Therapy,18,40,1,1,2
+219,62,Male,Fracture,Exercise Therapy,6,80,0,1,2
+220,79,Female,Sprain,Electrotherapy,18,72,1,0,1
+221,74,Female,Sprain,Electrotherapy,19,65,1,0,1
+222,70,Male,Sprain,Exercise Therapy,19,51,0,0,2
+223,23,Male,Sprain,Exercise Therapy,10,70,0,0,2
+224,45,Female,Fracture,Electrotherapy,15,51,1,1,1
+225,45,Male,Post-Surgery,Electrotherapy,17,65,0,2,1
+226,61,Male,Sprain,Manual Therapy,13,45,0,0,0
+227,61,Male,Sprain,Manual Therapy,5,93,0,0,0
+228,37,Female,Fracture,Electrotherapy,16,77,1,1,1
+229,47,Female,Post-Surgery,Exercise Therapy,10,16,1,2,2
+230,79,Male,Post-Surgery,Exercise Therapy,13,63,0,2,2
+231,28,Female,Fracture,Exercise Therapy,12,10,1,1,2
+232,75,Female,Fracture,Exercise Therapy,15,53,1,1,2
+233,72,Female,Post-Surgery,Manual Therapy,10,54,1,2,0
+234,45,Female,Sprain,Electrotherapy,7,115,1,0,1
+235,42,Female,Post-Surgery,Exercise Therapy,12,56,1,2,2
+236,56,Male,Fracture,Manual Therapy,13,22,0,1,0
+237,79,Male,Sprain,Exercise Therapy,5,31,0,0,2
+238,50,Male,Sprain,Electrotherapy,16,30,0,0,1
+239,18,Female,Fracture,Manual Therapy,13,95,1,1,0
+240,74,Female,Fracture,Electrotherapy,18,101,1,1,1
+241,44,Male,Fracture,Electrotherapy,19,18,0,1,1
+242,79,Female,Post-Surgery,Manual Therapy,10,35,1,2,0
+243,74,Male,Post-Surgery,Manual Therapy,10,18,0,2,0
+244,69,Male,Sprain,Manual Therapy,16,24,0,0,0
+245,30,Male,Fracture,Manual Therapy,8,19,0,1,0
+246,58,Female,Sprain,Manual Therapy,5,97,1,0,0
+247,20,Female,Sprain,Manual Therapy,14,51,1,0,0
+248,56,Male,Sprain,Manual Therapy,12,81,0,0,0
+249,23,Male,Sprain,Exercise Therapy,6,33,0,0,2
+250,25,Male,Fracture,Electrotherapy,16,89,0,1,1
+251,44,Male,Sprain,Manual Therapy,5,58,0,0,0
+252,26,Female,Fracture,Exercise Therapy,6,35,1,1,2
+253,79,Female,Fracture,Exercise Therapy,5,100,1,1,2
+254,54,Male,Post-Surgery,Exercise Therapy,5,46,0,2,2
+255,50,Male,Fracture,Electrotherapy,13,77,0,1,1
+256,68,Female,Post-Surgery,Manual Therapy,17,59,1,2,0
+257,59,Female,Fracture,Exercise Therapy,18,33,1,1,2
+258,61,Male,Fracture,Electrotherapy,5,28,0,1,1
+259,41,Male,Fracture,Electrotherapy,17,109,0,1,1
+260,32,Male,Post-Surgery,Electrotherapy,8,69,0,2,1
+261,76,Female,Post-Surgery,Exercise Therapy,14,48,1,2,2
+262,71,Female,Sprain,Manual Therapy,10,83,1,0,0
+263,49,Female,Post-Surgery,Exercise Therapy,11,98,1,2,2
+264,49,Male,Post-Surgery,Exercise Therapy,6,27,0,2,2
+265,41,Male,Post-Surgery,Manual Therapy,10,28,0,2,0
+266,58,Female,Post-Surgery,Manual Therapy,11,45,1,2,0
+267,69,Female,Sprain,Manual Therapy,14,83,1,0,0
+268,66,Male,Post-Surgery,Electrotherapy,18,106,0,2,1
+269,79,Female,Fracture,Manual Therapy,14,64,1,1,0
+270,66,Female,Fracture,Exercise Therapy,6,78,1,1,2
+271,75,Male,Post-Surgery,Manual Therapy,19,56,0,2,0
+272,69,Female,Post-Surgery,Exercise Therapy,6,58,1,2,2
+273,29,Male,Fracture,Electrotherapy,14,108,0,1,1
+274,79,Male,Fracture,Exercise Therapy,11,117,0,1,2
+275,56,Male,Sprain,Exercise Therapy,16,107,0,0,2
+276,19,Male,Fracture,Manual Therapy,5,42,0,1,0
+277,20,Male,Fracture,Manual Therapy,12,30,0,1,0
+278,66,Male,Post-Surgery,Exercise Therapy,15,90,0,2,2
+279,54,Male,Fracture,Manual Therapy,17,31,0,1,0
+280,66,Female,Sprain,Electrotherapy,7,57,1,0,1
+281,73,Male,Fracture,Electrotherapy,15,46,0,1,1
+282,34,Male,Post-Surgery,Manual Therapy,10,24,0,2,0
+283,76,Female,Post-Surgery,Electrotherapy,13,44,1,2,1
+284,66,Female,Fracture,Manual Therapy,10,101,1,1,0
+285,19,Female,Post-Surgery,Exercise Therapy,13,80,1,2,2
+286,19,Male,Sprain,Exercise Therapy,11,41,0,0,2
+287,45,Female,Sprain,Electrotherapy,19,20,1,0,1
+288,71,Male,Fracture,Manual Therapy,13,19,0,1,0
+289,40,Male,Fracture,Manual Therapy,6,82,0,1,0
+290,54,Male,Fracture,Electrotherapy,16,87,0,1,1
+291,49,Male,Post-Surgery,Exercise Therapy,12,86,0,2,2
+292,50,Female,Sprain,Electrotherapy,12,66,1,0,1
+293,18,Female,Sprain,Exercise Therapy,6,34,1,0,2
+294,36,Male,Post-Surgery,Manual Therapy,16,11,0,2,0
+295,79,Male,Sprain,Exercise Therapy,18,73,0,0,2
+296,19,Male,Fracture,Electrotherapy,8,44,0,1,1
+297,70,Female,Fracture,Manual Therapy,18,16,1,1,0
+298,61,Male,Fracture,Electrotherapy,19,94,0,1,1
+299,43,Male,Sprain,Electrotherapy,15,27,0,0,1
+300,49,Female,Fracture,Exercise Therapy,19,76,1,1,2
+301,23,Female,Post-Surgery,Electrotherapy,11,51,1,2,1
+302,49,Male,Post-Surgery,Exercise Therapy,15,48,0,2,2
+303,72,Female,Sprain,Manual Therapy,8,50,1,0,0
+304,21,Female,Post-Surgery,Exercise Therapy,8,84,1,2,2
+305,72,Male,Post-Surgery,Manual Therapy,10,112,0,2,0
+306,28,Female,Sprain,Exercise Therapy,14,33,1,0,2
+307,73,Male,Fracture,Electrotherapy,10,69,0,1,1
+308,76,Female,Fracture,Exercise Therapy,14,55,1,1,2
+309,34,Male,Fracture,Exercise Therapy,19,28,0,1,2
+310,55,Male,Sprain,Manual Therapy,7,77,0,0,0
+311,41,Male,Post-Surgery,Electrotherapy,19,99,0,2,1
+312,22,Female,Fracture,Exercise Therapy,13,111,1,1,2
+313,69,Male,Fracture,Electrotherapy,16,51,0,1,1
+314,51,Female,Sprain,Exercise Therapy,14,41,1,0,2
+315,23,Male,Fracture,Exercise Therapy,18,48,0,1,2
+316,39,Male,Sprain,Electrotherapy,15,118,0,0,1
+317,28,Female,Post-Surgery,Exercise Therapy,6,119,1,2,2
+318,65,Male,Sprain,Electrotherapy,10,45,0,0,1
+319,33,Male,Sprain,Exercise Therapy,16,113,0,0,2
+320,50,Female,Sprain,Manual Therapy,11,110,1,0,0
+321,26,Male,Sprain,Electrotherapy,16,106,0,0,1
+322,77,Male,Post-Surgery,Exercise Therapy,17,45,0,2,2
+323,76,Male,Post-Surgery,Exercise Therapy,13,12,0,2,2
+324,23,Male,Fracture,Manual Therapy,17,82,0,1,0
+325,33,Female,Post-Surgery,Electrotherapy,7,17,1,2,1
+326,46,Female,Post-Surgery,Exercise Therapy,14,106,1,2,2
+327,20,Male,Fracture,Manual Therapy,7,79,0,1,0
+328,37,Female,Post-Surgery,Exercise Therapy,11,50,1,2,2
+329,77,Male,Sprain,Electrotherapy,18,112,0,0,1
+330,76,Female,Sprain,Exercise Therapy,8,77,1,0,2
+331,53,Male,Fracture,Exercise Therapy,17,22,0,1,2
+332,36,Male,Fracture,Exercise Therapy,12,58,0,1,2
+333,43,Male,Fracture,Exercise Therapy,17,69,0,1,2
+334,20,Male,Sprain,Manual Therapy,11,11,0,0,0
+335,36,Male,Post-Surgery,Manual Therapy,9,69,0,2,0
+336,37,Male,Sprain,Electrotherapy,11,14,0,0,1
+337,49,Female,Fracture,Manual Therapy,7,53,1,1,0
+338,24,Male,Post-Surgery,Manual Therapy,16,36,0,2,0
+339,69,Female,Post-Surgery,Electrotherapy,6,41,1,2,1
+340,58,Male,Sprain,Manual Therapy,10,30,0,0,0
+341,50,Female,Fracture,Manual Therapy,6,17,1,1,0
+342,57,Female,Sprain,Electrotherapy,7,111,1,0,1
+343,56,Female,Post-Surgery,Electrotherapy,10,81,1,2,1
+344,35,Male,Sprain,Electrotherapy,9,59,0,0,1
+345,57,Male,Sprain,Exercise Therapy,12,76,0,0,2
+346,18,Female,Fracture,Exercise Therapy,13,53,1,1,2
+347,28,Male,Fracture,Electrotherapy,15,67,0,1,1
+348,45,Female,Post-Surgery,Electrotherapy,7,12,1,2,1
+349,74,Male,Sprain,Electrotherapy,16,95,0,0,1
+350,42,Female,Sprain,Exercise Therapy,14,79,1,0,2
+351,67,Female,Sprain,Exercise Therapy,7,11,1,0,2
+352,40,Male,Post-Surgery,Manual Therapy,7,96,0,2,0
+353,48,Female,Post-Surgery,Manual Therapy,17,53,1,2,0
+354,47,Male,Fracture,Electrotherapy,17,11,0,1,1
+355,59,Female,Fracture,Exercise Therapy,10,111,1,1,2
+356,52,Female,Fracture,Exercise Therapy,19,90,1,1,2
+357,24,Male,Sprain,Exercise Therapy,19,44,0,0,2
+358,77,Male,Sprain,Electrotherapy,5,107,0,0,1
+359,33,Male,Fracture,Manual Therapy,11,96,0,1,0
+360,43,Female,Sprain,Electrotherapy,16,39,1,0,1
+361,65,Male,Fracture,Manual Therapy,5,17,0,1,0
+362,74,Female,Post-Surgery,Manual Therapy,18,31,1,2,0
+363,69,Female,Fracture,Electrotherapy,9,53,1,1,1
+364,77,Male,Post-Surgery,Manual Therapy,19,67,0,2,0
+365,66,Male,Sprain,Manual Therapy,14,45,0,0,0
+366,19,Female,Fracture,Exercise Therapy,17,78,1,1,2
+367,18,Female,Sprain,Manual Therapy,12,86,1,0,0
+368,65,Male,Post-Surgery,Electrotherapy,8,102,0,2,1
+369,79,Male,Post-Surgery,Electrotherapy,9,40,0,2,1
+370,29,Male,Post-Surgery,Manual Therapy,8,56,0,2,0
+371,22,Male,Sprain,Exercise Therapy,16,64,0,0,2
+372,54,Male,Sprain,Exercise Therapy,16,89,0,0,2
+373,49,Female,Sprain,Manual Therapy,18,115,1,0,0
+374,76,Female,Sprain,Manual Therapy,8,71,1,0,0
+375,72,Female,Post-Surgery,Electrotherapy,16,39,1,2,1
+376,26,Female,Post-Surgery,Manual Therapy,12,64,1,2,0
+377,58,Male,Fracture,Exercise Therapy,6,25,0,1,2
+378,52,Male,Fracture,Manual Therapy,5,21,0,1,0
+379,36,Male,Sprain,Electrotherapy,7,26,0,0,1
+380,65,Female,Post-Surgery,Electrotherapy,13,25,1,2,1
+381,33,Female,Post-Surgery,Electrotherapy,8,21,1,2,1
+382,20,Male,Post-Surgery,Electrotherapy,14,17,0,2,1
+383,37,Male,Fracture,Electrotherapy,9,93,0,1,1
+384,41,Female,Fracture,Manual Therapy,6,12,1,1,0
+385,71,Female,Post-Surgery,Manual Therapy,8,25,1,2,0
+386,73,Male,Post-Surgery,Manual Therapy,6,39,0,2,0
+387,50,Male,Post-Surgery,Manual Therapy,19,118,0,2,0
+388,41,Female,Fracture,Electrotherapy,6,32,1,1,1
+389,69,Male,Post-Surgery,Exercise Therapy,8,101,0,2,2
+390,28,Male,Post-Surgery,Manual Therapy,10,113,0,2,0
+391,66,Male,Sprain,Exercise Therapy,11,14,0,0,2
+392,25,Female,Sprain,Manual Therapy,14,93,1,0,0
+393,53,Female,Fracture,Manual Therapy,7,113,1,1,0
+394,55,Female,Post-Surgery,Exercise Therapy,7,117,1,2,2
+395,57,Female,Post-Surgery,Electrotherapy,14,74,1,2,1
+396,37,Female,Sprain,Manual Therapy,10,39,1,0,0
+397,79,Female,Fracture,Manual Therapy,17,30,1,1,0
+398,52,Female,Sprain,Manual Therapy,16,93,1,0,0
+399,65,Male,Sprain,Exercise Therapy,7,79,0,0,2
+400,79,Male,Sprain,Electrotherapy,17,31,0,0,1
+401,42,Male,Sprain,Exercise Therapy,6,91,0,0,2
+402,52,Male,Post-Surgery,Exercise Therapy,12,81,0,2,2
+403,42,Male,Post-Surgery,Electrotherapy,9,112,0,2,1
+404,46,Male,Sprain,Exercise Therapy,19,41,0,0,2
+405,35,Male,Fracture,Electrotherapy,5,42,0,1,1
+406,63,Female,Fracture,Manual Therapy,7,25,1,1,0
+407,35,Female,Fracture,Electrotherapy,14,85,1,1,1
+408,19,Male,Fracture,Manual Therapy,12,47,0,1,0
+409,71,Male,Sprain,Exercise Therapy,8,107,0,0,2
+410,52,Female,Post-Surgery,Exercise Therapy,18,23,1,2,2
+411,33,Male,Fracture,Manual Therapy,11,45,0,1,0
+412,78,Male,Sprain,Exercise Therapy,14,106,0,0,2
+413,58,Female,Fracture,Electrotherapy,16,32,1,1,1
+414,53,Male,Fracture,Manual Therapy,18,118,0,1,0
+415,50,Female,Sprain,Exercise Therapy,18,75,1,0,2
+416,21,Male,Post-Surgery,Manual Therapy,6,114,0,2,0
+417,50,Female,Post-Surgery,Electrotherapy,11,94,1,2,1
+418,31,Female,Sprain,Electrotherapy,9,11,1,0,1
+419,38,Female,Post-Surgery,Exercise Therapy,9,100,1,2,2
+420,65,Male,Sprain,Electrotherapy,10,82,0,0,1
+421,37,Female,Sprain,Manual Therapy,17,74,1,0,0
+422,73,Male,Sprain,Electrotherapy,13,84,0,0,1
+423,25,Male,Post-Surgery,Manual Therapy,18,76,0,2,0
+424,24,Male,Sprain,Manual Therapy,10,61,0,0,0
+425,20,Male,Fracture,Electrotherapy,16,71,0,1,1
+426,34,Female,Post-Surgery,Exercise Therapy,17,32,1,2,2
+427,50,Female,Post-Surgery,Electrotherapy,19,35,1,2,1
+428,65,Male,Post-Surgery,Manual Therapy,18,77,0,2,0
+429,29,Male,Post-Surgery,Manual Therapy,12,91,0,2,0
+430,76,Female,Fracture,Electrotherapy,11,64,1,1,1
+431,68,Male,Post-Surgery,Exercise Therapy,13,15,0,2,2
+432,39,Female,Post-Surgery,Exercise Therapy,8,44,1,2,2
+433,72,Male,Sprain,Manual Therapy,6,31,0,0,0
+434,39,Male,Post-Surgery,Manual Therapy,11,52,0,2,0
+435,63,Female,Fracture,Exercise Therapy,10,24,1,1,2
+436,47,Male,Fracture,Electrotherapy,5,95,0,1,1
+437,55,Female,Fracture,Manual Therapy,15,69,1,1,0
+438,55,Male,Fracture,Manual Therapy,13,110,0,1,0
+439,62,Male,Post-Surgery,Exercise Therapy,13,115,0,2,2
+440,68,Male,Post-Surgery,Electrotherapy,16,21,0,2,1
+441,71,Female,Fracture,Exercise Therapy,6,58,1,1,2
+442,25,Male,Fracture,Electrotherapy,7,51,0,1,1
+443,44,Male,Post-Surgery,Electrotherapy,9,47,0,2,1
+444,44,Male,Fracture,Electrotherapy,9,91,0,1,1
+445,51,Male,Sprain,Manual Therapy,19,54,0,0,0
+446,38,Female,Fracture,Exercise Therapy,5,44,1,1,2
+447,47,Female,Fracture,Exercise Therapy,12,39,1,1,2
+448,50,Male,Sprain,Electrotherapy,16,97,0,0,1
+449,45,Female,Sprain,Manual Therapy,12,115,1,0,0
+450,64,Male,Post-Surgery,Manual Therapy,8,39,0,2,0
+451,50,Male,Post-Surgery,Exercise Therapy,17,87,0,2,2
+452,22,Male,Sprain,Manual Therapy,11,15,0,0,0
+453,77,Female,Sprain,Manual Therapy,19,76,1,0,0
+454,78,Female,Post-Surgery,Electrotherapy,19,89,1,2,1
+455,65,Female,Fracture,Manual Therapy,15,16,1,1,0
+456,36,Female,Sprain,Electrotherapy,14,61,1,0,1
+457,21,Female,Post-Surgery,Exercise Therapy,7,23,1,2,2
+458,52,Female,Fracture,Manual Therapy,10,82,1,1,0
+459,66,Female,Sprain,Exercise Therapy,18,24,1,0,2
+460,34,Female,Fracture,Exercise Therapy,14,30,1,1,2
+461,61,Female,Post-Surgery,Manual Therapy,17,44,1,2,0
+462,45,Male,Sprain,Manual Therapy,14,75,0,0,0
+463,47,Female,Fracture,Exercise Therapy,16,100,1,1,2
+464,46,Female,Sprain,Manual Therapy,18,11,1,0,0
+465,63,Female,Fracture,Electrotherapy,13,44,1,1,1
+466,70,Female,Post-Surgery,Electrotherapy,5,91,1,2,1
+467,23,Female,Post-Surgery,Manual Therapy,9,87,1,2,0
+468,52,Female,Sprain,Exercise Therapy,8,29,1,0,2
+469,77,Female,Fracture,Manual Therapy,12,91,1,1,0
+470,58,Female,Sprain,Manual Therapy,15,19,1,0,0
+471,54,Female,Sprain,Exercise Therapy,16,34,1,0,2
+472,41,Female,Fracture,Exercise Therapy,5,75,1,1,2
+473,46,Female,Fracture,Electrotherapy,13,34,1,1,1
+474,66,Male,Fracture,Exercise Therapy,10,63,0,1,2
+475,63,Male,Post-Surgery,Electrotherapy,8,42,0,2,1
+476,70,Female,Sprain,Exercise Therapy,16,45,1,0,2
+477,48,Female,Sprain,Manual Therapy,13,104,1,0,0
+478,52,Male,Post-Surgery,Electrotherapy,15,23,0,2,1
+479,77,Female,Fracture,Electrotherapy,9,74,1,1,1
+480,50,Male,Post-Surgery,Electrotherapy,19,119,0,2,1
+481,69,Male,Post-Surgery,Manual Therapy,9,89,0,2,0
+482,78,Male,Post-Surgery,Manual Therapy,16,63,0,2,0
+483,38,Male,Sprain,Manual Therapy,9,119,0,0,0
+484,49,Male,Post-Surgery,Manual Therapy,5,61,0,2,0
+485,40,Female,Sprain,Manual Therapy,5,12,1,0,0
+486,50,Male,Sprain,Electrotherapy,12,108,0,0,1
+487,20,Female,Sprain,Manual Therapy,16,50,1,0,0
+488,35,Female,Fracture,Electrotherapy,12,15,1,1,1
+489,42,Male,Sprain,Manual Therapy,16,34,0,0,0
+490,59,Male,Sprain,Exercise Therapy,19,22,0,0,2
+491,48,Female,Fracture,Electrotherapy,19,107,1,1,1
+492,71,Male,Sprain,Exercise Therapy,10,17,0,0,2
+493,75,Male,Post-Surgery,Electrotherapy,16,30,0,2,1
+494,20,Female,Post-Surgery,Exercise Therapy,15,107,1,2,2
+495,57,Female,Sprain,Manual Therapy,17,77,1,0,0
+496,63,Male,Fracture,Manual Therapy,8,34,0,1,0
+497,41,Female,Post-Surgery,Manual Therapy,6,88,1,2,0
+498,67,Male,Fracture,Electrotherapy,18,77,0,1,1
+499,49,Male,Fracture,Exercise Therapy,6,54,0,1,2
+500,64,Male,Post-Surgery,Manual Therapy,13,69,0,2,0
